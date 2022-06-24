@@ -1,0 +1,1 @@
+its a simple product landing page . I have used some animation using gsap.

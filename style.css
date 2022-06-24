@@ -1,0 +1,155 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+header .logo {
+    font-size: 3rem;
+    font-weight: 700;
+    z-index: 20;
+}
+
+.hero-content {
+    padding-right: 20px;
+}
+
+.hero-content h2,
+.hero-content p,
+.hero-content a {
+    display: block;
+    margin-top: 20px;
+    /* z-index: 20; */
+}
+
+.hero-content .btn {
+    border: 1px solid #333;
+    text-align: center;
+    width: 170px;
+    padding: 4px 0;
+    color: black;
+    border-radius: 5px;
+}
+
+.box {
+    background-color: rgb(240, 77, 77);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    right: 0;
+    top: 0;
+}
+
+.box2 {
+    background-color: rgb(90, 90, 90);
+    /* clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%); */
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 9;
+    left: 0;
+    top: 0;
+}
+
+
+.wrapper .container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .container>* {
+    width: 49%;
+}
+
+.variations {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.colors p {
+    margin-bottom: 40px;
+    text-align: right;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+
+.hero-img {
+    text-align: right;
+}
+
+.variations li {
+    margin-left: 51px;
+}
+
+.variations li:last-child {
+    margin-right: 75px;
+}
+
+.variations label {
+    width: 40px;
+    position: relative;
+}
+
+.variations input {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+
+
+.variations span {
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.cart {
+    z-index: 20;
+}
+
+
+/*    */
